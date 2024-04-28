@@ -45,17 +45,19 @@ export default function Chat() {
           {!nameSubmitted && (
             <>
               <div className={styles.greeting}>
-                <p>Hello, friend! My name is ChatterBot, what's your name?</p>
+                <p className={styles.greetingText}>
+                  Hello, friend! My name is ChatterBot, what's your name?
+                </p>
               </div>
               <form className={styles.form} onSubmit={handleNameSubmit}>
                 <input
-                  className="inputField"
+                  className={`${styles.inputField} inputField`}
                   value={userName}
                   placeholder="Enter your name here!"
                   onChange={handleNameInputChange}
                 />
-                <button type="submit">
-                  <BsChatHeart />
+                <button className={styles.submitButton} type="submit">
+                  <BsChatHeart className={styles.chatHeartIcon} />
                 </button>
               </form>
             </>
@@ -64,17 +66,19 @@ export default function Chat() {
           {nameSubmitted && (
             <>
               <div className={styles.greeting}>
-                <p>Hi, ${userName}! What would you like to know?</p>
+                <p className={styles.greetingText}>
+                  Hi, {userName}! What would you like to know?
+                </p>
               </div>
               <form className={styles.form} onSubmit={handleSubmit}>
                 <input
-                  className="inputField"
+                  className={`${styles.inputField} inputField`}
                   value={input}
                   placeholder="Ask me anything!"
                   onChange={handleInputChange}
                 />
-                <button type="submit">
-                  <BsChatHeart />
+                <button className={styles.submitButton} type="submit">
+                  <BsChatHeart className={styles.chatHeartIcon} />
                 </button>
               </form>
             </>
