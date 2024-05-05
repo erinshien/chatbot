@@ -47,7 +47,7 @@ export default function Chat() {
             <>
               <div className={styles.greeting}>
                 <p className={styles.greetingText}>
-                  Hello, friend! My name is ChatterBot, what's your name?
+                  Hello, friend! My name is ChatterBot. What is your name?
                 </p>
               </div>
               <form
