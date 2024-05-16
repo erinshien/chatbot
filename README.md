@@ -25,7 +25,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -47,7 +46,7 @@ I decided to take a break from all of my ongoing work and attempt a fun mini cha
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
+<!-- ROADMAP
 ## Roadmap
 
 - [x] Set Up
@@ -55,6 +54,7 @@ I decided to take a break from all of my ongoing work and attempt a fun mini cha
     - [x] Create HTML elements for weather data
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
