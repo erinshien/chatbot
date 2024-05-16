@@ -12,7 +12,7 @@ importers:
         specifier: ^3.0.34
         version: 3.0.34(react@18.3.1)(solid-js@1.8.17)(svelte@4.2.15)(vue@3.4.25(typescript@5.4.5))(zod@3.23.4)
       next:
-        specifier: 14.2.3
+        specifier: ^14.2.3
         version: 14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       openai:
         specifier: ^4.38.5
