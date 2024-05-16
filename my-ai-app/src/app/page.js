@@ -26,7 +26,7 @@ export default function Chat() {
   };
 
   return (
-    <>
+    <section className={styles.main}>
       <div className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
@@ -34,9 +34,7 @@ export default function Chat() {
             width={200}
             height={160}
             alt="Illustration of a robot sat on a pile of books, reading a book"
-            sizes="(max-width: 768px) 50vw,
-                (max-width: 1200px) 50vw,
-                50vw"
+            sizes="(max-width: 100%)"
             style={{ height: "100%", width: "100%" }}
             priority={true}
           />
@@ -115,6 +113,6 @@ export default function Chat() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

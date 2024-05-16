@@ -26,8 +26,11 @@ ol[role='list'] {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
   line-height: 1.5;
+  background-image: linear-gradient(#f5d6e7,#c3f1f1);
+  background-size: cover;
+  min-width: 100lvw;
+  min-height: 100lvh;
 }
 
 /* Set shorter line heights on headings and interactive elements */
@@ -70,4 +73,11 @@ textarea:not([rows]) {
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    background-color: white;
+  }
 }
